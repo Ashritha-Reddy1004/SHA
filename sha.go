@@ -7,10 +7,10 @@ import (
 )
 
 func main() {
-
 	if len(os.Args) != 2 {
 		os.Exit(1)
 	}
+
 	// initial value of hash
 	H := []uint32{
 		0x6a09e667,
